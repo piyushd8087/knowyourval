@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+ <script src="myScript.js"></script>
+ <link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+<body>
+
+<div class="container"><br><br><br>
+  <img style="width: 150px;" src="images/knowyourvalue_logo.png">
+	  <br><br><br>
+   <span id="first">
+         <div class="progress">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:7.7%">7.7%</div>
+  </div><br><br>
+  <h4>let us know your content</h4><br>
+  
+  <p>1. Name</p><br>
+
+  <input id="a" type="text" name=""><br><br><br>
+
+   <button onclick="first()" class="btn btn-primary">Next</button>
+</span>
+
+ <span id="sec" style="display: none;" >
+         <div class="progress">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:15.4%">15.4%</div>
+  </div><br><br>
+  <h4>let us know your content</h4><br>
+  <p>2. Email</p><br>
+
+  <input id="b"  type="text" name=""><br><br><br>
+
+   <button onclick="second()" class="btn btn-primary">Next</button>
+
+</span>
+
+
+
+ <span id="third" style="display: none;" >
+  <div class="progress">
+  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:23.1%">23.1%</div>
+  </div>
+  <br><br>
+  <h4>let us know your content</h4><br>
+  <p>3. Mobile Number <span style="font-size: 16px;color: green;font-weight: 500;">(please enter your mobile number with country code e.g 919503562107)</span></p><br>
+  <input id="c"  type="text" name=""><br><br><br>
+   <button onclick="third()" class="btn btn-primary">Next</button>
+  </span>
+
+
+
+ <span id="fourth" style="display: none;" >
+  <div class="progress">
+  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:30.8%">30.8%</div>
+  </div>
+  <br><br>
+  <h4>let us know your content</h4><br>
+  <p>4. Country</p><br>
+  <input id="d"  type="text" name=""><br><br><br>
+   <button onclick="fourth()" class="btn btn-primary">Next</button>
+  </span>
+  
+
+ <span id="five" style="display: none;" >
+  <div class="progress">
+  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:38.5%">38.5%</div>
+  </div>
+  <br><br>
+  <h4>let us know your content</h4><br>
+  <p>5. Where we can find you? You are a? Youtuber, streamer, ig creators, reels/ tiktok, etc…
+</p><br>
+  <input id="e"  type="text" name=""><br><br><br>
+   <button onclick="five()" class="btn btn-primary">Next</button>
+  </span>
+
+
+
+ <span id="six" style="display: none;" >
+  <div class="progress">
+  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:46.2%">46.2%</div>
+  </div>
+  <br><br>
+  <h4>let us know your content</h4><br>
+  <p>6. Which category do you create in?</p><br>
+  <input id="f"  type="text" name=""><br><br><br>
+   <button onclick="six()" class="btn btn-primary">Next</button>
+  </span>
+   
+
+
+ <span id="seventh" style="display: none;" >
+  <div class="progress">
+  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:53.9%">53.9%</div>
+  </div>
+  <br><br>
+  <h4>let us know your content</h4><br>
+  <p>7. Your profile URL?</p><br>
+  <input id="h"  type="text" name=""><br><br><br>
+   <button onclick="seventh()" class="btn btn-primary">Next</button>
+  </span>
+
+
+ <span id="eight" style="display: none;" >
+  <div class="progress">
+  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:61.6%">61.6%</div>
+  </div>
+  <br><br>
+  <h4>let us know your content</h4><br>
+  <p>8. how many followers/subs you have ? 
+</p><br>
+    <div  class="form-check">
+       	
+      <label class="form-check-label" for="radio1">
+        <input type="radio" class="form-check-input" id="i" name="i" value="5000">500-1000
+      </label>
+    </div>
+    <div class="form-check">
+      <label class="form-check-label" for="i">
+        <input type="radio" class="form-check-input" id="i"  name="i" value="10000">1000-5000
+      </label>
+    </div>
+     <div class="form-check">
+      <label class="form-check-label" for="i">
+        <input type="radio" class="form-check-input" id="i" name="i" value="20000">5000-10000
+      </label>
+    </div>
+     <div class="form-check">
+      <label class="form-check-label" for="i">
+        <input type="radio" class="form-check-input" id="i"  name="i" value="50000">10000-25000
+      </label>
+    </div>
+     <div class="form-check">
+      <label class="form-check-label" for="i">
+        <input type="radio" class="form-check-input" id="i" name="i" value="100000">25000-50000
+      </label>
+    </div>
+      <div class="form-check">
+      <label class="form-check-label" for="i">
+        <input type="radio" class="form-check-input" id="i" name="i" value="150000">50000-100000
+      </label>
+    </div>
+      <div class="form-check">
+      <label class="form-check-label" for="i">
+        <input type="radio" class="form-check-input" id="i" name="i" value="200000">100k+
+      </label>
+    </div>
+    <br><br><br>
+   <button onclick="eight()" class="btn btn-primary">Next</button>
+  </span>
+
+
+ <span id="nine" style="display: none;" >
+  <div class="progress">
+  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:69.3%">69.3%</div>
+  </div>
+  <br><br>
+  <h4>let us know your content</h4><br>
+  <p>9. how many content u post in a week ?</p><br>
+   <div class="form-check">
+      <label class="form-check-label" for="j">
+        <input type="radio" class="form-check-input" id="j" name="j" value="1">1-3
+      </label>
+    </div>
+      <div class="form-check">
+      <label class="form-check-label" for="j">
+        <input type="radio" class="form-check-input" id="j" name="j" value="1">3-6
+      </label>
+    </div>
+      <div class="form-check">
+      <label class="form-check-label" for="j">
+        <input type="radio" class="form-check-input" id="j" name="j" value="1">6+
+      </label>
+    </div>
+  <!-- <input id="j"  type="text" name=""> --><br><br><br>
+   <button onclick="nine()" class="btn btn-primary">Next</button>
+  </span>
+  
+
+ <span id="ten" style="display: none;" >
+  <div class="progress">
+  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:77%">77%</div>
+  </div>
+  <br><br>
+  <h4>let us know your content</h4><br>
+  <p>10. How many brand deals you have done till now ?</p><br>
+    <div class="form-check">
+      <label class="form-check-label" for="k">
+        <input type="radio" class="form-check-input" id="k" name="k" value="1">0-5
+      </label>
+    </div>
+      <div class="form-check">
+      <label class="form-check-label" for="k">
+        <input type="radio" class="form-check-input" id="k" name="k" value=2>5-10
+      </label>
+    </div>
+      <div class="form-check">
+      <label class="form-check-label" for="k">
+        <input type="radio" class="form-check-input" id="k" name="k" value=3>10-20
+      </label>
+    </div>
+
+      <div class="form-check">
+      <label class="form-check-label" for="k">
+        <input type="radio" class="form-check-input" id="k" name="k" value="4">20+
+      </label>
+    </div>
+
+ <!--  <input id="k"  type="text" name=""> --><br><br><br>
+   <button onclick="ten()" class="btn btn-primary">Next</button>
+  </span>
+
+
+ <span id="eleven" style="display: none;" >
+  <div class="progress">
+  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:84.7%">84.7%</div>
+  </div>
+  <br><br>
+  <h4>let us know your content</h4><br>
+  <p>11. Do you have existing Community or not?</p><br>
+   <div class="form-check">
+      <label class="form-check-label" for="m">
+        <input type="radio" class="form-check-input" id="m" name="m" value="1.5">Yes
+      </label>
+    </div>
+
+      <div class="form-check">
+      <label class="form-check-label" for="m">
+        <input type="radio" class="form-check-input" id="m" name="m" value="1">No
+      </label>
+    </div>
+ <!--  <input id="m"  type="text" name=""> --><br><br><br>
+   <button onclick="eleven()" class="btn btn-primary">Next</button>
+  </span>
+  
+
+ <span id="twel" style="display: none;" >
+  <div class="progress">
+  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:92.4%">92.4%</div>
+  </div>
+  <br><br>
+  <h4>let us know your content</h4><br>
+  <p>12. How many DMs/messages you receive from ur users ?</p><br>
+
+      <div class="form-check">
+      <label class="form-check-label" for="n">
+        <input type="radio" class="form-check-input" id="n" name="n" value="1">0-5
+      </label>
+    </div>
+      <div class="form-check">
+      <label class="form-check-label" for="n">
+        <input type="radio" class="form-check-input" id="n" name="n" value="1">5-10
+      </label>
+    </div>
+      <div class="form-check">
+      <label class="form-check-label" for="n">
+        <input type="radio" class="form-check-input" id="n" name="n" value="1.5">10-20
+      </label>
+    </div>
+
+      <div class="form-check">
+      <label class="form-check-label" for="n">
+        <input type="radio" class="form-check-input" id="n" name="n" value="1.5">20+
+      </label>
+    </div>
+  <!-- <input id="n"  type="text" name=""> --><br><br><br>
+   <button onclick="twel()" class="btn btn-primary">Next</button>
+  </span>
+
+
+ <span id="thirteen" style="display: none;" >
+  <div class="progress">
+  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:100%">100%</div>
+  </div>
+  <br><br>
+  <h4>let us know your content</h4><br>
+  <p>13. Do you Sell anything to your users ?</p><br>
+    <div class="form-check">
+      <label class="form-check-label" for="o">
+        <input type="radio" class="form-check-input" id="o" name="o" value="1.5">Yes
+      </label>
+    </div>
+
+      <div class="form-check">
+      <label class="form-check-label" for="o">
+        <input type="radio" class="form-check-input" id="o" name="o" value="1">No
+      </label>
+    </div>
+ <!--  <input id="o"  type="text" name=""> -->
+  <br><br><br>
+   <button onclick="thirteen()" class="btn btn-primary">Next</button>
+  </span>
+
+
+
+
+
+
+
+
+
+</div>	
+
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-body">
+        	 <button type="button" class="close" data-dismiss="modal">&times;</button>
+          Please insert data..
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="myModal1">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-body">
+        	 <button type="button" class="close" data-dismiss="modal">&times;</button>
+          Please enter valid email ..
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <div class="modal fade" id="myModal2">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-body">
+        	 <button type="button" class="close" data-dismiss="modal">&times;</button>
+          Please enter valid mobile no..
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <div class="modal fade" id="myModal3">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-body">
+        	 <button type="button" class="close" data-dismiss="modal">&times;</button>
+          Please select option..
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
